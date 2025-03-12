@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: bhuviworld.in
+    - host: backend.bhuviworld.in
       http:
         paths:
           - path: /api
